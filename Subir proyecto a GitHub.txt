@@ -1,0 +1,12 @@
+1. Tener instalado Git.
+2. Desde la consola ubica tu carpeta deonde clonaras el proyecto.
+3. teclea: git clone https://github.com/TSEFGE/FGE.git
+4. entra a la carpeta del proyecto cd FGE.
+5. tecleamos git branch -a para ver las ramas locales y remotas.
+6. creamos una nueva rama: git checkout -b develop origin/develop
+7. No posicionamos en nuestra rama develop: git checkout develop
+8. Realizamos los cambios al archivo.
+9. Una vez terminados los cambios tecleamos git status, para verificar el archivo modificado.
+10. Tecleamos git add nombre de archivo, para preparar el archivo.
+11. Tecleamos git commit -m "Mensaje sobre nuestra modificación".
+12. git push origin develop, Para subir las actualizaciones al repositorio.
